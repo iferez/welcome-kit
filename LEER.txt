@@ -1,0 +1,8 @@
+En esta carpeta estan todos los archivos usados en todas las landing de cloudpages.
+
+Para la nueva landing WELCOME KIT, se necesito solo el html "wecolmeKit" y agregar los css "bn-tabs" "bm-carrusel".
+
+Subiendo esos 2 archivos a salesforce acompañado de lo que ya esta online, deberia funcionar todo bien.
+
+*** IMPORTANTE: Se realizaron actualizaciones en los CSS "ui-global" "bm-cards" "bm-banner", juntarse con Iván para actualización correcta.
+*** IMPORTANTE: El html "welcomeKit" no tiene que cargar el JS "scroll-fix" ya que no tiene CTA definido para mostrar en el header fixeado.

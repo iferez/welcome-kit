@@ -1,0 +1,13 @@
+@import "bootstrap.min.css";
+@import "slick.css";
+@import "aos.css";
+
+@import "ui-global.css";
+@import "ui-header-footer-off-nav.css";
+@import "bm-banner.css";
+@import "bm-cards.css";
+@import "bm-accordion.css";
+@import "bm-form.css";
+
+@import "bm-tabs.css";
+@import "bm-carrusel.css";

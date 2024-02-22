@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Descripción de la página">
+    <meta name="keywords" content="palabra1, palabra2, palabra3">
+    <title>Bienvenida</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/master.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-header">
+            <img class="img-head-desktop" src="img/logo-blanco-sin-claim.png" alt="Logo Banco Macro">
+        </div>
+    </header>
+    <main>
+        <!-- SECCIÓN DE BANNER - TEXTO E IMAGEN -->
+        <section id="bm-banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <article class="col-lg-8 bm-banner-first" data-aos="zoom-in">
+                        <div class="welcome-kit">
+                            <h3 class="fw-bold mb-0">Bienvenido</h3>
+                            <h1 class="fw-bold mb-4">¡Ya empezaste a pensar en GRANDE!</h1>
+                            <h4>Sólo necesitás tu Tarjeta de Débito y tu clave <br class="wk-br"> PIN numérica de 4
+                                digitos y comenzá
+                                a operar
+                            </h4>
+                            <div>
+                                <a href="#pin-banco-chat" class="btn btn-bm-white color-blue fw-bold">NO Recibí el
+                                    PIN</a>
+                                <a href="#pin-app" class="btn btn-bm-white color-blue fw-bold ms-2 ms-xl-4">Recibí el
+                                    PIN</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 bm-banner-second">
+                        <img src="img/627ca2a8e0b6cc21c66d41ac172987b8.png" alt="Persona beneficiada"
+                            data-aos="fade-up-right">
+                        <div class="bm-pild-social" data-aos="fade-up">
+                            <img src="img/boton-texto.png" alt="Pensa en Macro">
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="bm-banner-bg-shape" data-aos="fade-left"></div>
+        </section>
+
+
+        <!-- CONTENEDOR DE FONDO PARA SHAPE ROSA -->
+        <div class="bm-bg-shape_left">
+            <!-- SECCIÓN TABS -->
+            <section>
+                <div class="container">
+                    <h3 class="text-center fw-bold my-5" style="color:#003057;" data-aos="fade-up-right">Con Macro te
+                        gestionás 100% de forma digital <br class="d-none d-md-block"> elegí la opción que más te
+                        convenga</h3>
+
+                    <article class="bm-tabs nav nav-pills d-flex flex-column flex-sm-row justify-content-center mb-5"
+                        data-aos="fade-up">
+                        <button class="nav-link active" id="pills-banco-chat-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-banco-chat" type="button" role="tab" aria-controls="pills-banco-chat"
+                            aria-selected="true">Usa BancoChat</button>
+
+                        <button class="nav-link mt-3 mt-sm-0 ms-md-2" id="pills-app-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-app" type="button" role="tab" aria-controls="pills-app"
+                            aria-selected="false">Bajate App Macro</button>
+                    </article>
+
+                    <article class="tab-content pt-0 pt-md-4" id="pills-tabContent" data-aos="fade-up">
+                        <!-- TAB ABRI BANCO CHAT -->
+                        <div class="tab-pane fade show active" id="pills-banco-chat" role="tabpanel"
+                            aria-labelledby="pills-banco-chat-tab" tabindex="0">
+                            <div class="row bm-imagen-texto">
+                                <div class="col-md-5 text-center text-md-end">
+                                    <img src="img/bancochat.png" alt="Banco chat">
+                                </div>
+                                <div class="offset-md-1 col-md-6 mt-3 mt-md-0">
+                                    <h3 class="mb-4">Llegó <br> <span>BancoChat</span></h3>
+                                    <ul>
+                                        <li>Somos el <strong>primer Banco</strong> que te trae una nueva forma de operar
+                                            desde
+                                            <strong>WhatsApp</strong>.
+                                        </li>
+                                        <li>
+                                            Hacé tus operaciones y dirigí todo por chat. <strong>Fácil, rápido y
+                                                seguro.</strong>
+                                        </li>
+                                        <li><strong>Nuestro objetivo</strong> es llevar el banco donde está la gente y
+                                            <strong>ser
+                                                parte del día a día de los argentinos.</strong>
+                                        </li>
+                                    </ul>
+                                    <div class="mt-5">
+                                        <a href="#" class="btn btn-navy-main">Abrí BancoChat</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TAB APP MACRO -->
+                        <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab"
+                            tabindex="0">
+                            <div class="row bm-imagen-texto">
+                                <div class="col-md-5 text-center text-md-end">
+                                    <img src="img/appmacro.png" alt="App Macro">
+                                </div>
+                                <div class="offset-md-1 col-md-6 mt-3 mt-md-0">
+                                    <h3 class="mb-4">Usa <br> <span>App Macro</span></h3>
+                                    <ul>
+                                        <li>Te acercamos una <strong>aplicación gratuita</strong> para dispositivos
+                                            móviles que te
+                                            permite realizar
+                                            <strong>consultas y transacciones de forma simple, cómoda y segura las
+                                                24hs</strong> del
+                                            día los 365
+                                            días del año. Descargala ingresando a tu Tienda Virtual y seleccionando la
+                                            aplicación
+                                            "Macro".
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-5">
+                                        <a href="" class="btn btn-bm-white"><i class="bi bi-google-play"></i> Google
+                                            Play</a>
+                                        <a href="" class="btn btn-bm-white ms-2 ms-md-4"><i class="bi bi-apple"></i>
+                                            Apple
+                                            store</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- SECCIÓN OPERAR CON O SIN PIN -->
+            <section class="my-5 py-3">
+                <div class="container">
+                    <h3 class="text-center fw-bold mt-5 mb-6" style="color:#003057;">Para poder operar falta que hagas
+                        un blanqueo de PIN,
+                        <br class="d-none d-xl-block"> tenés 2 formas de hacerlo
+                    </h3>
+                    <article class="row justify-content-center">
+                        <div id="pin-banco-chat" class="col-md-6">
+                            <div class="bm-card-lg">
+                                <div class="bm-card-lg_header bg-blue-main text-center text-white">
+                                    <h5>BLANQUEÁ TU CLAVE PIN <br> DESDE BANCOCHAT</h5>
+                                </div>
+                                <div class="bm-card-lg_body">
+                                    <p>Blanquea tu PIN desde Whatsapp de forma simple, fácil y rápida.
+                                        Hace clic en el enlace y serás dirigido a Whatsapp.</p>
+                                </div>
+                                <div class="bm-card-lg_footer">
+                                    <a href="#" class="color-blue fw-semibold">Click aquí para blanquear PIN</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="pin-app" class="col-md-6 mt-4 mt-md-0">
+                            <div class="bm-card-lg">
+                                <div class="bm-card-lg_header bg-blue-main text-center text-white">
+                                    <h5>BLANQUEÁ TU CLAVE PIN <br> DESDE BANCA INTERNET O APP MACRO</h5>
+                                </div>
+                                <div class="bm-card-lg_body">
+                                    <p>A través de Banca Internet o App Macro ingresá en la opción del menú Gestión de
+                                        claves >> Blanqueo de PIN de Tarjeta de Débito. Recordá tener tu usuario y clave
+                                        activos.</p>
+                                </div>
+                                <div class="bm-card-lg_footer">
+                                    <a href="#" class="color-blue fw-semibold">Click aquí para ir a Banca Internet</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <!-- CONTENEDOR DE FONDO PARA SHAPE AZUL -->
+        <div class="bm-bg-shape_right">
+            <!-- SECCIÓN CARDS DE PROMOCIONES -->
+            <section id="bm-promo">
+                <div class="container-lg">
+                    <h3 class="text-center mb-6" data-aos="fade-up-right">Y ya podés acceder a todos estos beneficios
+                        pensados para vos</h3>
+                    <article id="slider-promo" class="wrapper-cards-between">
+                        <div class="bm-card-md" data-aos="fade-up-right">
+                            <div class="bm-card-md_body">
+                                <h5>Hasta <br><span>20%</span><br> de Ahorro <br>pagando con</h5>
+                            </div>
+                            <div class="bm-card-md_footer bg-blue">
+                                <img src="img/logo_Modo.png" alt="Logo MODO">
+                            </div>
+                        </div>
+
+                        <div class="bm-card-md" data-aos="fade-up-right" data-aos-delay="100">
+                            <div class="bm-card-md_body">
+                                <h5>Hasta <br><span>35%</span><br> de Ahorro <br>mensual en</h5>
+                            </div>
+                            <div class="bm-card-md_footer bg-blue">
+                                <img src="img/logo_PedidosYa.png" alt="Logo PedidosYa">
+                            </div>
+                        </div>
+
+                        <div class="bm-card-md" data-aos="fade-up-right" data-aos-delay="200">
+                            <div class="bm-card-md_body">
+                                <h5>Hasta <br><span>50%</span><br> de Ahorro <br>en entradas</h5>
+                            </div>
+                            <div class="bm-card-md_footer bg-blue">
+                                <span><img src="img/icon_BaresYCerveceria.png" alt="Icono Bares y cervecerias"></span>
+                                <span>Bares y <br> cervecerias</span>
+                            </div>
+                        </div>
+
+                        <div class="bm-card-md" data-aos="fade-up-right" data-aos-delay="300">
+                            <div class="bm-card-md_body">
+                                <h5>Hasta <br><span>20%</span><br> de Ahorro <br>mensual en</h5>
+                            </div>
+                            <div class="bm-card-md_footer bg-blue">
+                                <span><img src="img/icon_gastronomia.png" alt="Icono gastronomia"></span>
+                                <span>Gastronomía</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- SECCIÓN BANNER CARRUSEL -->
+            <section>
+                <div class="container py-5 my-5">
+                    <div id="carrusel-macro" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <article class="row">
+                                    <div class="col-md-5 d-flex justify-content-center">
+                                        <img src="https://www.macro.com.ar/imagen/img_bm_card_home_1/card_1_tarjetas.jpg"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-md-7 carousel-info">
+                                        <h4>Lorem ipsum dolor sit amet</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, quia?</p>
+                                        <button class="btn btn-navy-main mt-4">Mas información</button>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="carousel-item">
+                                <article class="row">
+                                    <div class="col-md-5 d-flex justify-content-center">
+                                        <img src="https://www.macro.com.ar/imagen/img_bm_card_home_3/card_3_modo.jpg"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-md-7 carousel-info">
+                                        <h4>Lorem ipsum dolor sit amet</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, quia?</p>
+                                        <button class="btn btn-navy-main mt-4">Mas información</button>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-macro"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-macro"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- SECCIÓN CARDS DE PASOS SUMARTE A MACRO -->
+        <section id="bm-pasos">
+            <div class="container-xl" data-aos="fade-up">
+                <h3 class="text-center mb-6">Si recibiste el pin en tu casa seguí estos pasos</h3>
+                <article id="slider-pasos" class="wrapper-cards-between">
+                    <div class="bm-card-sm">
+                        <div class="bm-card-sm_header">
+                            <img src="img/Card.png" alt="Definir img">
+                            <h5>Paso 1</h5>
+                        </div>
+                        <div class="bm-card-sm_body">
+                            <p>Acercate a un cajero automático de la red Banelco
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bm-card-sm">
+                        <div class="bm-card-sm_header">
+                            <img src="img/Card.png" alt="Definir img">
+                            <h5>Paso 2</h5>
+                        </div>
+                        <div class="bm-card-sm_body">
+                            <p>Ingresá la clave (PIN) en la pantalla</p>
+                        </div>
+                    </div>
+
+                    <div class="bm-card-sm">
+                        <div class="bm-card-sm_header">
+                            <img src="img/Card.png" alt="Definir img">
+                            <h5>Paso 3</h5>
+                        </div>
+                        <div class="bm-card-sm_body">
+                            <p>Elegí la operación que querés realizar</p>
+                        </div>
+                    </div>
+
+                    <div class="bm-card-sm">
+                        <div class="bm-card-sm_header">
+                            <img src="img/Card.png" alt="Definir img">
+                            <h5>Paso 4</h5>
+                        </div>
+                        <div class="bm-card-sm_body">
+                            <p>Seguí las intrucciones y empezá a operar</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PREGUNTAS FRECUENTES -->
+        <section id="bm-preguntas">
+            <div class="container">
+                <h3 class="mb-6">Preguntas frecuentes</h3>
+                <article class="accordion" id="accordion-preguntas">
+                    <div class="accordion-item">
+                        <h6 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                ¿Qué es una cuenta Macro?
+                            </button>
+                        </h6>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordion-preguntas">
+                            <div class="accordion-body">
+                                <p>Una Cuenta Macro es una caja de ahorro en pesos asociada a una Tarjeta de Débito
+                                    con
+                                    la cual podés realizar las compras que desees cuando quieras. Es gratis de por
+                                    vida.
+                                    Sumate a Macro y obtené grandes beneficios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h6 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h6>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-preguntas">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor <strong>sit amet consectetur</strong> adipisicing elit.
+                                    Sapiente
+                                    soluta autem, ut
+                                    quaerat rem quam labore eligendi neque architecto similique repellat nisi
+                                    reprehenderit est eos aliquam vero quas porro doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <hr class="mt-6 mb-4">
+                <article>
+                    <a class="link-collapse text-center mb-5" data-bs-toggle="collapse" href="#collapse-tyc"
+                        role="button" aria-expanded="false" aria-controls="collapse-tyc">
+                        Ver términos y condiciones legales
+                    </a>
+
+                    <div class="collapse" id="collapse-tyc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda architecto temporibus
+                            eligendi
+                            perspiciatis! Excepturi neque minima magni et consectetur est hic, exercitationem nisi
+                            ipsam
+                            accusamus porro sed nulla a animi.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SCROLL TOP / MODAL TYC -->
+        <button class="scroll-to-top" onclick="scrollToTop()">&#8593;</button>
+        <!-- Modal -->
+
+
+    </main>
+    <footer>
+        <img src="img/logo-blanco-sin-claim.png" alt="Logo Banco Macro">
+    </footer>
+
+    <!-- Bootstrap Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Slider JS JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/sliders.js"></script>
+    <!-- Animaciones CSS JS -->
+    <script src="js/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const pild = document.querySelector('.bm-pild-social');
+            function handleResize() {
+                if (window.innerWidth < 996) {
+                    pild.removeAttribute('data-aos');
+                }
+            }
+            handleResize();
+            AOS.init();
+        });
+    </script>
+
+</body>
+
+</html>

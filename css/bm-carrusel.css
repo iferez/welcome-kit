@@ -1,0 +1,42 @@
+/* CARRUSEL */
+#carrusel-macro .carousel-item img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0;
+    border-radius: 12px;
+  }
+  #carrusel-macro .carousel-item h4 {
+    font-size: 22px;
+    color: #003057;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  #carrusel-macro .carousel-info {
+    padding: 1rem 4rem;
+    margin: auto;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    #carrusel-macro .carousel-item img {
+      max-width: 300px;
+      max-height: 300px;
+    }
+    #carrusel-macro .carousel-info {
+      padding: 0px 4rem 0px 0px;
+      margin: auto;
+    }
+    #carrusel-macro .carousel-control-next,
+    .carousel-control-prev {
+      width: auto;
+    }
+    #carrusel-macro .carousel-item h4 {
+      font-size: 52px;
+    }
+  }
+  
+  @media only screen and (min-width: 1600px) {
+    #carrusel-macro .carousel-item h4 {
+      font-size: 60px;
+    }
+  }
+  
