@@ -40,7 +40,7 @@
 }
 .bm-card-md_header,
 .bm-card-md_body {
-  padding-top: 16px;
+  padding: 12px 12px 0px 12px;
   flex-grow: 1;
 }
 .bm-card-md_body a {
@@ -257,9 +257,7 @@
 }
 .bm-card-lg_header,
 .bm-card-lg_body {
-  padding-top: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 12px 12px 0px 12px;
   flex-grow: 1;
 }
 .bm-card-lg_body a {
