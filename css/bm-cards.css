@@ -1,6 +1,29 @@
 #bm-promo {
   padding: 3rem 0;
 }
+#bm-ahorro {
+  padding: 3rem 0;
+}
+#bm-pasos {
+  padding: 3rem 0;
+}
+#bm-productos {
+  padding: 4rem 0;
+  margin-top: 3rem; /* Puede afectar color de seccion superior */
+  background-color: var(--color-section-grey);
+}
+#bm-gestion {
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+#bm-gestion .btn-navy-main {
+  font-size: 1.3rem;
+}
+#bm-tarjetas {
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
 /* SLIDER PROMOCIONES */
 .wrapper-cards-center {
   display: flex;
@@ -15,7 +38,39 @@
   justify-content: space-between;
 }
 
-/* CARDS MEDIANAS HEAD - BODY - FOOTER */
+/* CARDS SMALL HEAD - BODY - FOOTER */
+.bm-card-sm {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 100%;
+  min-height: 203px;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 6px 10px 4px #7a7a7a26;
+  background-color: var(--color-white);
+}
+.bm-card-sm_header {
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.bm-card-sm_header h5 {
+  font-size: 24px;
+  margin: 0 0 0 16px;
+  font-weight: 600;
+  color: var(--color-blue-main-x);
+}
+.bm-card-sm_body p {
+  margin: 0;
+}
+/* SLIDER ACTIVO CARD SMALL */
+.convert-slider .bm-card-sm {
+  margin: 0.5rem 2rem 1rem 2rem;
+}
+
+/* CARDS MEDIUM HEAD - BODY - FOOTER */
 .bm-card-md {
   display: flex;
   flex-direction: column;
@@ -68,17 +123,100 @@
   line-height: 1.2;
   text-align: start;
 }
-
-/* SLIDER ACTIVO */
+/* SLIDER ACTIVO - CARD MEDIUM */
 .convert-slider .bm-card-md {
   margin: 0.5rem 2rem 1rem 2rem;
   display: flex !important;
 }
 
-#bm-ahorro {
-  padding: 3rem 0;
+/* CARDS LARGE HEAD - BODY - FOOTER */
+.bm-card-lg {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  min-height: 180px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 6px 10px 4px #7a7a7a26;
 }
-/* CARDS AHORRO */
+.bm-card-lg h5 {
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+.bm-card-lg p {
+  font-family: "Public Sans", sans-serif;
+}
+.bm-card-lg_header {
+  border-radius: 12px 12px 0px 0px;
+}
+.bm-card-lg_header,
+.bm-card-lg_body {
+  padding: 16px 16px 0px 16px;
+  flex-grow: 1;
+}
+.bm-card-lg_body a {
+  margin-bottom: 24px;
+}
+.bm-card-lg_footer {
+  flex-grow: 1;
+  min-height: 66px;
+  max-height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border-radius: 0px 0px 12px 12px;
+}
+
+/* CARD NAVY */
+.bm-card-navy {
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  background-color: var(--color-navy-main);
+  transition: 0.3s ease;
+}
+.bm-card-navy:hover {
+  background-color: var(--color-navy-dark);
+  transition: 0.3s ease;
+}
+
+/* CARD HORIZONTAL - IMAGEN - TEXTO - BOTON */
+.bm-card-horizontal {
+  display: flex;
+  max-width: 540px;
+  font-family: "Public Sans", sans-serif;
+  background-color: var(--color-white);
+  height: 100%;
+}
+.bm-card-horizontal.border-card {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+.bm-card-horizontal img {
+  height: fit-content;
+  margin: 1rem 0;
+  max-height: 120px;
+}
+.bm-card-horizontal h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.bm-card-horizontal h6 {
+  margin-bottom: 1rem;
+}
+.bm-card-horizontal .bm-card-horizontal_info button {
+  margin: 0;
+}
+.bm-card-horizontal.border-card {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+/* MODULOS DE INFORMACIÓN */
 .bm-module-info {
   display: flex;
   flex-direction: column;
@@ -106,175 +244,6 @@
   padding-top: 1rem;
 }
 
-#bm-pasos {
-  padding: 3rem 0;
-}
-.bm-card-step {
-  width: 240px;
-  height: 100%;
-  min-height: 240px;
-  padding: 1rem;
-  border-radius: 25px;
-  color: var(--color-blue-main-x);
-  background-color: #fff;
-  box-shadow: 6px 6px 15px 0px #0808083c;
-}
-.bm-card-step > * {
-  margin-bottom: 0.8rem;
-}
-.bm-card-step h5 {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-.bm-card-step p {
-  font-size: 1rem;
-}
-/* .convert-slider .bm-card-step {
-  margin: 0.5rem 2rem 1rem 2rem;
-} */
-
-/* NUEVOS CARD PASOS*/
-.bm-card-sm {
-  display: flex;
-  flex-direction: column;
-  width: 230px;
-  height: 100%;
-  min-height: 203px;
-  border-radius: 12px;
-  padding: 24px;
-  box-shadow: 0px 6px 10px 4px #7a7a7a26;
-}
-.bm-card-sm_header {
-  border-radius: 12px 12px 0px 0px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-}
-.bm-card-sm_header h5 {
-  font-size: 24px;
-  margin: 0 0 0 16px;
-  font-weight: 600;
-  color: var(--color-blue-main-x);
-}
-/* .bm-card-sm_header *,
-.bm-card-sm_body * {
-  margin: 0;
-} */
-.bm-card-sm_body p {
-  margin: 0;
-}
-
-/* SLIDER ACTIVO */
-.convert-slider .bm-card-sm {
-  margin: 0.5rem 2rem 1rem 2rem;
-}
-
-#bm-productos {
-  padding: 4rem 0;
-  margin-top: 3rem; /* Puede afectar color de seccion superior */
-  background-color: var(--color-section-grey);
-}
-
-#bm-gestion {
-  padding: 2rem 0;
-  margin-top: 3rem;
-}
-
-#bm-gestion .btn-navy-main {
-  font-size: 1.3rem;
-}
-
-.bm-card-navy {
-  font-size: 22px;
-  text-align: center;
-  color: #fff;
-  background-color: var(--color-navy-main);
-  transition: 0.3s ease;
-}
-
-.bm-card-navy:hover {
-  background-color: var(--color-navy-dark);
-  transition: 0.3s ease;
-}
-
-#bm-tarjetas {
-  padding: 2rem 0;
-  margin-top: 3rem;
-}
-
-/* CARD HORIZONTAL - IMAGEN - TEXTO - BOTON */
-.bm-card-horizontal{
-  display: flex;
-  max-width: 540px;
-  font-family: "Public Sans", sans-serif;
-  background-color: var(--color-white);
-  height: 100%;
-}
-.bm-card-horizontal.border-card{
-  padding: 2rem 1.5rem;
-  text-align: center;
-}
-.bm-card-horizontal img{
-  height: fit-content;
-  margin: 1rem 0;
-  max-height: 120px;
-}
-.bm-card-horizontal h4{
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-.bm-card-horizontal h6{
-  margin-bottom: 1rem;
-}
-.bm-card-horizontal .bm-card-horizontal_info button{
-  margin: 0;
-}
-.bm-card-horizontal.border-card{
-  padding: 2rem 1.5rem;
-  text-align: center;
-}
-
-/* CARDS LG - WELCOME KIT */
-.bm-card-lg {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: 100%;
-  min-height: 180px;
-  border-radius: 12px;
-  background-color: #fff;
-  box-shadow: 0px 6px 10px 4px #7a7a7a26;
-}
-.bm-card-lg h5 {
-  font-size: 20px;
-  padding-bottom: 16px;
-}
-.bm-card-lg p {
-  font-family: "Public Sans", sans-serif;
-}
-.bm-card-lg_header {
-  border-radius: 12px 12px 0px 0px;
-}
-.bm-card-lg_header,
-.bm-card-lg_body {
-  padding: 12px 12px 0px 12px;
-  flex-grow: 1;
-}
-.bm-card-lg_body a {
-  margin-bottom: 24px;
-}
-.bm-card-lg_footer {
-  flex-grow: 1;
-  min-height: 66px;
-  max-height: 66px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: auto;
-  background-color: var(--color-white);
-  color: var(--color-black);
-  border-radius: 0px 0px 12px 12px;
-}
 @media only screen and (min-width: 992px) {
   /* CARD HORIZONTAL */
   .vista-horizontal {
@@ -291,15 +260,15 @@
     padding-top: 0;
     padding-left: 1.5rem;
   }
-  .bm-card-horizontal.border-card{
+  .bm-card-horizontal.border-card {
     padding: 1.5rem 2rem;
     text-align: start;
   }
-  .bm-card-horizontal img{
+  .bm-card-horizontal img {
     margin: 0;
     max-height: 200px;
   }
-  .bm-card-horizontal .bm-card-horizontal_info{
+  .bm-card-horizontal .bm-card-horizontal_info {
     margin-left: 1.5rem;
   }
   .bm-card-lg_header {

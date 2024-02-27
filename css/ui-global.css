@@ -172,17 +172,17 @@ h6 {
 
 /* WELCOME KIT - NO ALINEADO A DS VERIFICAR */
 .btn-bm-blue {
-  background-color: #1E43E7;
-  color: #fff;
+  background-color: var(--color-blue-main-x);
+  color: var(--color-white);
 }
 .btn-bm-blue:hover {
   background-color: #1b3ccd;
-  color: #fff;
+  color: var(--color-white);
   transition: 0.3s ease-in-out;
 }
 .btn-bm-white {
   border: 1px solid #f7f7f7;
-  background-color: #fff;
+  background-color: var(--color-white);
   color: #030303;
   -webkit-box-shadow: 5px 2px 20px -5px #00000030;
   -moz-box-shadow: 5px 2px 20px -5px #00000030;
@@ -190,17 +190,20 @@ h6 {
   transition: 0.3s ease-in-out;
 }
 .btn-bm-white:hover {
-  background-color: #fff;
-  color: #1E43E7;
+  background-color: var(--color-white);
+  color: var(--color-blue-main-x);
   -webkit-box-shadow: 5px 2px 20px -5px #00000050;
   -moz-box-shadow: 5px 2px 20px -5px #00000050;
   box-shadow: 5px 2px 20px -5px #00000050;
 }
 .bg-blue {
-  background-color: #1E43E7;
+  background-color: var(--color-blue-main-x);
 }
 .color-blue {
-  color: #1E43E7;
+  color: var(--color-blue-main-x);
+}
+.color-navy-main {
+  color: var(--color-navy-main);
 }
 /* LINKS  A */
 a {
@@ -254,7 +257,7 @@ a {
   /* Estilos para tabletas en modo retrato */
 }
 @media only screen and (min-width: 992px) {
-  /* ANIMAR IMG EN CONTENEDOR */
+  /* ANIMAR IMG EN CONTENEDOR - MODULO TARJETAS */
   .img-animate img {
     transition: transform 0.5s ease-in-out;
   }

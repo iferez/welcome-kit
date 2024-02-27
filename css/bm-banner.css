@@ -85,25 +85,25 @@
 
 /* ESTILOS PROPIOS DEL WELCOME KIT */
 /* BANNER CON 2 BOTONES */
-.bm-banner-first .welcome-kit h1{
+.bm-banner-first .welcome-kit h1 {
   color: var(--color-navy-main);
   font-size: 1.5rem;
 }
-.bm-banner-first .welcome-kit h3{
+.bm-banner-first .welcome-kit h3 {
   color: var(--color-navy-main);
   font-size: 2rem;
 }
-.bm-banner-first .welcome-kit div{
+.bm-banner-first .welcome-kit div {
   display: flex;
   justify-content: center;
   padding: 1rem 0rem;
 }
-.wk-br{
+.wk-br {
   display: none;
 }
 
 @media only screen and (min-width: 400px) {
-  .wk-br{
+  .wk-br {
     display: block;
   }
 }
@@ -123,7 +123,7 @@
   #bm-banner {
     padding-bottom: 32px;
   }
-  #bm-banner::before{
+  #bm-banner::before {
     background-size: 100% 100%;
   }
   .bm-banner-bg-shape {
@@ -166,19 +166,19 @@
     max-width: 330px;
   }
   /*WELCOME KIT*/
-  .bm-banner-first .welcome-kit h1{
+  .bm-banner-first .welcome-kit h1 {
     color: var(--color-navy-main);
     font-size: 2.625rem;
   }
-  .bm-banner-first .welcome-kit h3{
+  .bm-banner-first .welcome-kit h3 {
     color: var(--color-navy-main);
     font-size: 4rem;
   }
-  .bm-banner-first .welcome-kit div{
+  .bm-banner-first .welcome-kit div {
     justify-content: start;
     padding: 1.5rem 0rem;
   }
-  .bm-banner-first .welcome-kit div a{
+  .bm-banner-first .welcome-kit div a {
     min-width: 180px;
   }
 }

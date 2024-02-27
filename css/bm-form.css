@@ -25,8 +25,8 @@
   border-bottom: 1px solid #c6c6c6;
 }
 .bm-input:focus-visible {
-    border-bottom: 1px solid var(--color-navy-main);
-  }
+  border-bottom: 1px solid var(--color-navy-main);
+}
 .bm-input[type="checkbox"] {
   display: inline-block;
   width: 16px;
